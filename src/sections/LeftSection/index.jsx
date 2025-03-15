@@ -4,9 +4,9 @@ import Contact from "../Contact";
 
 const LeftSection = () => {
     return (
-        <div>
+        <div className="px-5">
         {/* stickyยึดติดกับอเมื่อscroll */}
-            <div className='sticky top-6 grid grid-rows-[63%_33%_5%] h-[92vh]'>
+            <div className='sticky top-6 grid gap-y-5 lg:grid-rows-[55%_35%_10%] lg:h-[92vh]'>
                 <Header/>
                 <Navbar/>
                 <Contact/>

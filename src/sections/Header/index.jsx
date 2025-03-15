@@ -7,11 +7,12 @@ const Header = () => {
     <div>
          <div className='flex flex-col gap-1'>
         
-                  <img src={data.img} alt="Profile" class="w-40 h-40 rounded-full object-cover" />
+         <img src={data.img} alt="Profile" className="w-40 h-40 rounded-full object-cover" />
+
         
-                    <div className='text-3xl text-primaryTitle font-semibold'>{data.name}</div>
-                    <div className='font-medium'>{data.title}</div>
-                    <div className='text-sm w-5/6'>{data.caption}</div>
+                    <div className='mt-3 text-3xl text-primaryTitle font-semibold'>{data.name}</div>
+                    <div className='mt-2 font-medium'>{data.title}</div>
+                    <div className='mt-2 text-sm w-5/6'>{data.caption}</div>
                     <div className='mt-6'>
                       <a href="">
                       <span className='rounded-xl bg-primaryTitle text-primaryBg py-2 px-3.5'>

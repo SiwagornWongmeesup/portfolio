@@ -3,7 +3,7 @@
 
  const Contact = () => {
      return (
-         <div className='flex items-end gap-3.5 text-2xl'>
+         <div className='flex items-end gap-3.5 text-2xl' gap-y-5>
              <FontAwesomeIcon className='hover:scale-125 duration-300' icon={faFacebook} />
              <FontAwesomeIcon className='hover:scale-125 duration-300' icon={faInstagram} />
              <FontAwesomeIcon className='hover:scale-125 duration-300' icon={faLine} />

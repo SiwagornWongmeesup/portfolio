@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () =>{
     return(
-        <div className='flex flex-col gap-2 font-medium'>
+        <div className='flex flex-col gap-4 font-medium'>
             <div>
                 <FontAwesomeIcon className='mr-2' icon={faArrowRight}/>
                 About</div>
