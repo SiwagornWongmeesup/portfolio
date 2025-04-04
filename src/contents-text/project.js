@@ -9,7 +9,7 @@ export const Projectdata = [
         ""
     ],
     tech: [faHtml5, faCss, faJs],
-    picture: "/src/assets/Logo-cut.jpg"
+    picture: "Logo-cut.jpg"
     },
 
     {
@@ -21,7 +21,7 @@ export const Projectdata = [
     ],
     tech: [faReact],
     skill:"tailwindcss",
-    picture: "/src/assets/Portfolio1.jpg"
+    picture: "Portfolio1.jpg"
     },
     
     {
@@ -32,7 +32,7 @@ export const Projectdata = [
         ""
     ],
     tech: [faWordpress],
-    picture: "/src/assets/webwordpress.jpg"
+    picture: "webwordpress.jpg"
     },
 
     {
@@ -43,7 +43,7 @@ export const Projectdata = [
         ""
     ],
     tech: [],
-    picture: "/src/assets/mv.jpg"
+    picture: "mv.jpg"
     },
 
     
