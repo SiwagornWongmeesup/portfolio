@@ -14,14 +14,14 @@ export const Projectdata = [
 
     {
      title:"Portfolio",
-     link:"",
+     link:"https://portfolio-tawny-iota-46.vercel.app/",
     description:[
         "ฝึกการใช้ React ร่วมกับ Tailwind CSS ในการสร้างเว็บไซต์ Portfolio โดย Tailwind CSS ช่วยให้การจัดการสไตล์เป็นเรื่องง่ายและรวดเร็ว ในขณะที่ React ช่วยให้สามารถพัฒนา UI ที่ตอบสนองได้ดีและสามารถจัดการกับสถานะต่างๆ ได้อย่างมีประสิทธิภาพ",
         ""
     ],
     tech: [faReact],
     skill:"tailwindcss",
-    picture: "Portfolio1.jpg"
+    picture: "/Portfolio1.jpg"
     },
     
     {
@@ -32,7 +32,7 @@ export const Projectdata = [
         ""
     ],
     tech: [faWordpress],
-    picture: "webwordpress.jpg"
+    picture: "/webwordpress.jpg"
     },
 
     {
@@ -43,7 +43,7 @@ export const Projectdata = [
         ""
     ],
     tech: [],
-    picture: "mv.jpg"
+    picture: "/mv.jpg"
     },
 
     

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import LeftSection from './sections/LeftSection'
 import RightSection from './sections/RightSection'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -67,6 +68,9 @@ function App() {
 
   return (
     <div className='mt-6 mx-auto max-w-6xl grid gap-y-5 lg:grid-cols-[40%_60%]'>
+       <Helmet>
+        <title>Portfolio</title>
+      </Helmet>
      <LeftSection navBarItems={navBarItems} currentSection={currentSection}/>
      <RightSection onInitial={addSectionIds}/>
     </div>
