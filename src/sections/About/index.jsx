@@ -19,10 +19,10 @@ const About = ({
             <div className="gap-y-3">{data.description}</div>
             <div className='mt-3'>
                 <a href="">
-                <span className='rounded-xl bg-primaryTitle text-primaryBg py-2 px-3.5'>
+                {/* <span className='rounded-xl bg-primaryTitle text-primaryBg py-2 px-3.5'>
                     {data.btnText}
                     <span className='rotate-90 inline-block ml-2'><FontAwesomeIcon className='animate-bounce' icon={faArrowDown}/></span>
-                </span>
+                </span> */}
                 </a>
             </div>
         </div>

@@ -46,5 +46,28 @@ export const Projectdata = [
     picture: "/mv.jpg"
     },
 
+    {
+     title:"การสร้างอินโฟกราฟิก หัวข้อ Low Waste",
+     link:"https://www.canva.com/design/DAGkBc9B4Uk/A26HErdNHl8amzHmXcncGA/view?utm_content=DAGkBc9B4Uk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h00854fccc8",
+    description:[
+        " อธิบายวิธีการใช้ชีวิตให้สร้างขยะน้อยที่สุด โดยเน้นการลดการใช้ของที่ไม่จำเป็น",
+        ""
+    ],
+    tech: [],
+    picture: "/Low .jpg"
+    },
+
+    {
+     title:" วิเคราะห์แบรนด์ สบู่รีฮาน",
+     link:"https://www.canva.com/design/DAGYzdWpfYY/zXyPBdEVUoFhLh7Z90wO2A/view?utm_content=DAGYzdWpfYY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdda300ebc0",
+    description:[
+        " วิเคราะห์ตลาดโดยใช้ SWOT และ TOWS Matrix",
+        "ออกแบบกลยุทธ์การสื่อสารเพื่อสร้างความเข้าใจเรื่องจุดซ่อนเร้นให้ดูไม่น่าอาย",
+        "ทำสไลด์พรีเซนต์เน้น storytelling + pain point ของกลุ่มเป้าหมาย"
+    ],
+    tech: [],
+    picture: "/Business.png"
+    },
+
     
 ]

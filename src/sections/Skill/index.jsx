@@ -16,7 +16,7 @@ const Skill = ({
 
     return(
         <div id={SectionId} className="scroll-m-6 space-y-4 px-2"> 
-            <div className="font-medium">Skill</div>
+            <div className="text-primaryTitle font-medium">Skills</div>
             <div className="flex gap-2">
                <div className="flex items-center gap-2 bg-primaryHtml p-2 rounded-sm text-textColor">
                     <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
